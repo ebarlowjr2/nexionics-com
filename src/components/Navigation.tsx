@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom'
 
 function Navigation() {
   const aiServices = [
-    { name: "Generative AI Solutions", href: "/services#generative-ai" },
-    { name: "ML Model Development", href: "/services#ml-development" },
-    { name: "AI Automation", href: "/services#ai-automation" },
-    { name: "Computer Vision", href: "/services#computer-vision" },
-    { name: "Natural Language Processing", href: "/services#nlp" },
-    { name: "Data Engineering & MLOps", href: "/services#mlops" }
+    { name: "Generative AI Solutions", href: "/services/generative-ai" },
+    { name: "ML Model Development", href: "/services/ml-development" },
+    { name: "AI Automation", href: "/services/ai-automation" },
+    { name: "Computer Vision", href: "/services/computer-vision" },
+    { name: "Natural Language Processing", href: "/services/nlp" },
+    { name: "Data Engineering & MLOps", href: "/services/data-engineering-mlops" }
   ]
 
   const traditionalServices = [
-    { name: "IT Business Solutions", href: "/services#it-business" },
-    { name: "UI/UX Design", href: "/services#ui-ux" },
-    { name: "Mobile App Development", href: "/services#mobile-app" },
-    { name: "Web App Development", href: "/services#web-app" },
-    { name: "E-Commerce Integration", href: "/services#ecommerce" },
-    { name: "QA Testing & Automation", href: "/services#qa-testing" }
+    { name: "IT Business Solutions", href: "/services/it-business-solutions" },
+    { name: "UI/UX Design", href: "/services/ui-ux-design" },
+    { name: "Mobile App Development", href: "/services/mobile-app-development" },
+    { name: "Web App Development", href: "/services/web-app-development" },
+    { name: "E-Commerce Integration", href: "/services/ecommerce-integration" },
+    { name: "QA Testing & Automation", href: "/services/qa-testing-automation" }
   ]
 
   return (
@@ -42,23 +42,23 @@ function Navigation() {
                 <div className="p-4">
                   <div className="text-cyan-400 text-xs font-semibold uppercase mb-2">AI Solutions</div>
                   {aiServices.map((service, index) => (
-                    <a
+                    <Link
                       key={index}
-                      href={service.href}
+                      to={service.href}
                       className="block text-slate-300 hover:text-cyan-400 py-2 text-sm transition-colors"
                     >
                       {service.name}
-                    </a>
+                    </Link>
                   ))}
                   <div className="text-cyan-400 text-xs font-semibold uppercase mt-4 mb-2">Traditional Services</div>
                   {traditionalServices.map((service, index) => (
-                    <a
+                    <Link
                       key={index}
-                      href={service.href}
+                      to={service.href}
                       className="block text-slate-300 hover:text-cyan-400 py-2 text-sm transition-colors"
                     >
                       {service.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import { Sparkles, ArrowRight, Mail, Phone, MapPin, Shield, Cloud, Lock } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { Link } from 'react-router-dom'
 
 function Home() {
   const techStack = [
@@ -66,9 +67,9 @@ function Home() {
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="bg-transparent border-slate-700 text-white hover:bg-slate-800 text-lg px-8 py-6">
-              <a href="/blog">
+              <Link to="/blog">
                 View Blog
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
@@ -184,9 +185,9 @@ function Home() {
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="bg-transparent border-slate-700 text-white hover:bg-slate-800 text-lg px-8 py-6">
-                <a href="/blog">
+                <Link to="/blog">
                   View Blog
-                </a>
+                </Link>
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
