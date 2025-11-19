@@ -90,8 +90,10 @@ function App() {
               <a href="#process" className="text-slate-300 hover:text-cyan-400 transition-colors">Process</a>
               <a href="#contact" className="text-slate-300 hover:text-cyan-400 transition-colors">Contact</a>
             </div>
-            <Button className="bg-cyan-500 hover:bg-cyan-600 text-white">
-              Schedule a Call
+            <Button asChild className="bg-cyan-500 hover:bg-cyan-600 text-white">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRE86_vAyckMNmMi3jJhbhXy8ABc7pxrOj3BKSq_Fq2dEsIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                Schedule a Call
+              </a>
             </Button>
           </div>
         </div>
@@ -115,8 +117,10 @@ function App() {
             From generative AI to computer vision, we build intelligent systems that scale.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-8 py-6">
-              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+            <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-8 py-6">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRE86_vAyckMNmMi3jJhbhXy8ABc7pxrOj3BKSq_Fq2dEsIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                Get Started <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
             <Button size="lg" variant="outline" className="border-slate-700 text-white hover:bg-slate-800 text-lg px-8 py-6">
               View Our Work
@@ -217,8 +221,10 @@ function App() {
               Let's discuss how AI can transform your business
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-8 py-6">
-                Schedule a Consultation
+              <Button asChild size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-8 py-6">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRE86_vAyckMNmMi3jJhbhXy8ABc7pxrOj3BKSq_Fq2dEsIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
+                  Schedule a Consultation
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="border-slate-700 text-white hover:bg-slate-800 text-lg px-8 py-6">
                 View Case Studies
