@@ -199,7 +199,7 @@ export const services: Service[] = [
     short: 'Rescue stalled software and recover code using our custom AI IDE tools.',
     category: 'ai',
     icon: LifeBuoy,
-    description: 'Too many projects get stuck in limbo after a freelancer or offshore team over-promises and under-delivers. You\'re left with half-finished code, broken builds, or—worst—no access at all. You are not alone: the Standish CHAOS report estimates roughly 66% of software projects fail to meet expectations, and industry analyses show 1.86 million abandoned apps in app stores. Users are unforgiving—88% say they abandon apps because of bugs, and typical apps lose 77% of users in three days, 90% in thirty days, 95% within three months. Our AI App Recovery service turns that risk into a plan and gets you back to shipping.',
+    description: 'Too many projects get stuck in limbo after a freelancer or offshore team over-promises and under-delivers. You\'re left with half-finished code, broken builds, or—worst—no access at all. You are not alone: the Standish CHAOS report estimates roughly 66% of software projects fail to meet expectations, and industry analyses show 1.86 million abandoned apps in app stores. Users are unforgiving—88% say they abandon apps because of bugs, and typical apps lose 77% of users in three days, 90% in thirty days, 95% within three months. Our AI-Assisted App Recovery service turns that risk into a plan and gets you back to shipping.',
     features: [
       'Codebase ingestion and mapping with AI analysis',
       'Environment reconstruction and build repair',
