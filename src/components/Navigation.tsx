@@ -10,7 +10,7 @@ function Navigation() {
     { name: "Computer Vision", href: "/services/computer-vision" },
     { name: "Natural Language Processing", href: "/services/nlp" },
     { name: "Data Engineering & MLOps", href: "/services/data-engineering-mlops" },
-    { name: "AI App Recovery", href: "/services/ai-app-recovery" }
+    { name: "AI-Assisted App Recovery", href: "/services/ai-app-recovery" }
   ]
 
   const traditionalServices = [
