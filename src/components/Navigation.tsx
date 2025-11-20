@@ -1,4 +1,4 @@
-import { Brain, ChevronDown } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-router-dom'
 
@@ -26,7 +26,7 @@ function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Brain className="h-8 w-8 text-cyan-400" />
+            <img src="/logo.png" alt="Nexionics" className="h-8 w-8" />
             <span className="text-2xl font-bold text-white">Nexionics</span>
           </Link>
           <div className="hidden md:flex items-center space-x-8">
@@ -66,9 +66,9 @@ function Navigation() {
             <Link to="/blog" className="text-slate-300 hover:text-cyan-400 transition-colors">
               Blog
             </Link>
-            <a href="/#contact" className="text-slate-300 hover:text-cyan-400 transition-colors">
+            <Link to="/contact" className="text-slate-300 hover:text-cyan-400 transition-colors">
               Contact
-            </a>
+            </Link>
           </div>
           <Button asChild className="bg-cyan-500 hover:bg-cyan-600 text-white">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeRE86_vAyckMNmMi3jJhbhXy8ABc7pxrOj3BKSq_Fq2dEsIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">
