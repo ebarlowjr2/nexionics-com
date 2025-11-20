@@ -25,9 +25,8 @@ function Navigation() {
     <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <img src="/logo.png" alt="Nexionics" className="h-8 w-8" />
-            <span className="text-2xl font-bold text-white">Nexionics</span>
+          <Link to="/" className="flex items-center">
+            <img src="/logo-full.png" alt="Nexionics" className="h-8" />
           </Link>
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-slate-300 hover:text-cyan-400 transition-colors">
