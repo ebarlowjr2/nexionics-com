@@ -4,7 +4,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <img src="/logo-full.png" alt="Nexionics" className="h-6" />
+            <img src="/logo-full.png" alt="Nexionics" className="h-8" />
           </div>
           <div className="text-slate-400 text-sm">
             © 2024 Nexionics. AI-Powered Software Factory.
